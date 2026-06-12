@@ -1,0 +1,4 @@
+criterion,inside_envelope,outside_envelope
+Point tail-probability accuracy (c = -3),Saddlepoint dominates (95.1% wins),Mixed (50.8% Edgeworth wins)
+Density validity (Proposition 1),Both valid (n = 81),Only saddlepoint valid (n = 567)
+Integrated-tail accuracy (ES error),Both small (6.20% vs. 7.09%),Saddlepoint dominates (13.64% vs. 47.04%)

@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this replication package, please cite the paper below."
+title: "Threshold-Dependent Dominance in Tail Risk Approximation — Replication"
+author:
+  - family-names: Agbeyegbe
+    given-names: Terence D.
+    affiliation: "Hunter College and the Graduate Center, City University of New York"
+year: 2026
+license: MIT
+repository-code: "https://github.com/ProfTemi/threshold-risk-replication"
+preferred-citation:
+  type: article
+  title: "Threshold-Dependent Dominance in Tail Risk Approximation"
+  authors:
+    - family-names: Agbeyegbe
+      given-names: Terence D.
+      affiliation: "Hunter College and the Graduate Center, City University of New York"
+  journal: "Econometrics"
+  publisher:
+    name: "MDPI"
+  year: 2026
+  doi: "10.3390/econometrics1010000"
+  notes: "Forthcoming"

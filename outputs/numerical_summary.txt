@@ -1,0 +1,50 @@
+==============================================================================
+NUMERICAL SUMMARY
+Date: 2026-06-12 20:41   Seed: 456   Mode: FULL
+==============================================================================
+
+Calibration (Barro 2006: pi = 0.01, delta = 5, c = -3)
+  Edgeworth relative error:     193.336%
+  Saddlepoint relative error:    87.377%
+
+Validity envelope
+  Kurtosis ceiling gamma_2:      3.9863
+  Lateral peak |gamma_1*|:       0.6846 at gamma_2 = 2.5375
+  Fraction outside envelope:     87.500%
+  Min |g1| invalid set:          0.6631
+  Max |g1| valid set:            0.6676
+  Closed-form consistency:      648/648
+
+Diebold-Mariano statistics at c = -3 (positive = Saddlepoint better)
+  Mild                            +8.613
+  Moderate                        +9.751
+  Severe                          -1.934
+  Extreme                        -17.706
+  Overall                         -7.919
+
+Expected Shortfall (alpha = 0.01)
+  Edgeworth mean rel err full:   41.934%
+  Saddlepoint mean rel err full: 12.823%
+  ES gap (Edge - Sad):          +29.110 pp
+  ES Edge inside envelope:        6.200%
+  ES Edge outside envelope:      47.039%
+  Amplification (outside/inside):   7.586x
+
+Robustness across distributions (ES rel error %, mean)
+  Family                       n  Outside%   EdgeIn   EdgeOut    SadIn    SadOut
+  Rare-disaster              648    87.50%     6.20     47.04     7.09     13.64
+  Hansen skewed-t             42    64.29%     2.85    146.49     1.57     16.51
+  GED                          8    25.00%     7.80    633.72     0.91      3.06
+  Two-sided jump              81    77.78%     4.82    247.30     3.96     14.75
+  Generalised Hyperbolic      75    13.33%     3.14     26.26     2.39     10.16
+
+Empirical application
+  SP500 rolling windows (250d):  8919
+  Inside envelope:                   70.501%
+  Outside envelope:                  29.499%
+
+Monte Carlo (Barro calibration)
+  MC mean:                      0.011067 +/- 0.000309
+  Edgeworth error vs MC:        194.438%
+  Saddlepoint error vs MC:       88.081%
+==============================================================================

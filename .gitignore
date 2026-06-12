@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Large regenerated intermediates (rebuilt by the notebook; not version-controlled)
+outputs/full_grid_results.csv
+outputs/empirical_rolling.csv
+outputs/es_records*.csv
+
+# Manuscript figures emitted to the working dir at run time (canonical copies
+# live in outputs/); ignore the root-level duplicates.
+/figure1_preview.*
+/figure2_preview.*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini

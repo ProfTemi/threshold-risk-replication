@@ -1,0 +1,12 @@
+# Core dependencies for the replication notebook and generate_figures.py.
+# Tested with Python 3.10/3.11. Pinned to the versions used for the paper;
+# any reasonably recent release of these packages reproduces the results.
+numpy>=1.26,<2.1
+scipy>=1.11,<1.15
+pandas>=2.0,<2.3
+matplotlib>=3.7,<3.10
+
+# Optional — only needed to re-freeze sample_data/sp500_returns.csv from source:
+# yfinance>=0.2.40
+# jupyter is needed to open the .ipynb interactively:
+jupyter>=1.0
